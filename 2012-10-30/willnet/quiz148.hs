@@ -14,12 +14,8 @@ make = head . foldl culc [] . strToItemList
   where
     culc (x:y:xs) Division = (y ++ " / " ++ x) : xs
     culc (x:y:xs) Times = (y ++ " * " ++ x) : xs
+    culc (x:y:[]) Minus = (y ++ " - " ++ x) : []
+    culc (x:y:[]) Plus = (y ++ " + " ++ x) : []
     culc (x:y:xs) Minus = ("(" ++ y ++ " - " ++ x ++ ")") : xs
     culc (x:y:xs) Plus = ("(" ++ y ++ " + " ++ x ++ ")") : xs
     culc xs (Num x)= x : xs
-
-
-
-
-
-
