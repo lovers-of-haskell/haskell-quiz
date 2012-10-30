@@ -13,3 +13,9 @@ haskell で quiz を解くのを楽しむオンライン勉強会リポジトリ
 
 [Haskell Quiz/Credit Cards - HaskellWiki](http://www.haskell.org/haskellwiki/Haskell_Quiz/Credit_Cards)
 
+## 第二回
+
+2012年10月29日 19:30 ~
+
+[Ruby Quiz - Postfix to Infix (#148)](http://www.rubyquiz.com/quiz148.html)
+
